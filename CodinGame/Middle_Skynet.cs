@@ -38,15 +38,22 @@ namespace CodinGame
 			int N = int.Parse(inputs[0]); // the total number of nodes in the level, including the gateways
 			int L = int.Parse(inputs[1]); // the number of links
 			int E = int.Parse(inputs[2]); // the number of exit gateways
+
+			Middle_Skynet solver = new Middle_Skynet(N);
+
 			for (int i = 0; i < L; i++)
 			{
 				inputs = Console.ReadLine().Split(' ');
 				int N1 = int.Parse(inputs[0]); // N1 and N2 defines a link between these nodes
 				int N2 = int.Parse(inputs[1]);
+
+				solver.AddLink(N1, N2);
 			}
 			for (int i = 0; i < E; i++)
 			{
 				int EI = int.Parse(Console.ReadLine()); // the index of a gateway node
+
+				solver.AddGateway(EI);
 			}
 
 			// game loop
