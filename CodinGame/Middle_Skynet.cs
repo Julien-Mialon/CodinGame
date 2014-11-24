@@ -31,7 +31,7 @@ namespace CodinGame
 		}
 
 
-		static void Main(String[] args)
+		static void MainSK(String[] args)
 		{
 			string[] inputs;
 			inputs = Console.ReadLine().Split(' ');

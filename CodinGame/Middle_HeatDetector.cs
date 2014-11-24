@@ -112,7 +112,7 @@ namespace CodinGame
 			return direction == Right || direction == UpRight || direction == DownRight;
 		}
 
-		static void Main(String[] args)
+		static void MainHD(String[] args)
 		{
 			string[] inputs;
 			inputs = Console.ReadLine().Split(' ');

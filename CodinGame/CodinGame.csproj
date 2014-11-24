@@ -44,6 +44,7 @@
     <Compile Include="Library\FordFulkerson.cs" />
     <Compile Include="Library\Node.cs" />
     <Compile Include="Middle_HeatDetector.cs" />
+    <Compile Include="Middle_MarsLander.cs" />
     <Compile Include="Middle_Skynet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
