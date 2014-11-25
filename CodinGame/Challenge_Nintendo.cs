@@ -8,7 +8,7 @@ namespace CodinGame
 {
 	class Challenge_Nintendo
 	{
-		static void Main(string[] args)
+		static void MainNintendo(string[] args)
 		{
 			string encoded = Encode("00000001000073af");
 			string simpleEncoded = SimplifiedEncode("00000001000073af");

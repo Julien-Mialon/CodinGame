@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 class Middle_MarsLander
 {
-	static void Main(String[] args)
+	static void MainML(String[] args)
 	{
 		string[] inputs;
 		int n = int.Parse(Console.ReadLine()); // the number of points used to draw the surface of Mars.

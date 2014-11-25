@@ -49,7 +49,7 @@ namespace CodinGame
 
 		static Node currentNode = null;
 
-		public static void Main(String[] args)
+		public static void MainDP(String[] args)
 		{
 			string[] inputs;
 			string temp = Console.ReadLine();
