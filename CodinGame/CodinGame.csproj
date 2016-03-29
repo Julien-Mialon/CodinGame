@@ -45,6 +45,7 @@
     <Compile Include="Challenge_Nintendo.cs" />
     <Compile Include="Library\FordFulkerson.cs" />
     <Compile Include="Library\Node.cs" />
+    <Compile Include="Middle_APU.cs" />
     <Compile Include="Middle_HeatDetector.cs" />
     <Compile Include="Middle_Indiana.cs" />
     <Compile Include="Middle_MarsLander.cs" />

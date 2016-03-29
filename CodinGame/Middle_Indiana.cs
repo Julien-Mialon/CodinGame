@@ -116,7 +116,7 @@ class Middle_Indiana
 	#endregion
 
 
-	static void Main(String[] args)
+	static void Main_Middle_Indiana(String[] args)
 	{
 		string[] inputs;
 		inputs = Console.ReadLine().Split(' ');
